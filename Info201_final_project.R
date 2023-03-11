@@ -2,6 +2,9 @@ library(shiny)
 library(tidyverse)
 library(plotly)
 movies2 <- read_delim("movies2.csv")
+library(rsconnect)
+
+
 
 ui <- fluidPage(
                 
